@@ -1,0 +1,15 @@
+task createZipFile( type: Zip ) {
+
+  def buildDirName = "build"
+  def buildDir = new File ( buildDirName )
+  buildDir.mkdirs()
+
+  destinationDir buildDir
+  archiveName "My Custom Pack.zip"
+
+}
+
+build {
+  dependsOn clean
+  dependsOn createZipFile
+}
