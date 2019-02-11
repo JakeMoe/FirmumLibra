@@ -1,11 +1,19 @@
-task createZipFile( type: Zip ) {
+plugins {
+  id 'base'
+}
+
+version = '0.1.1'
+
+task createZipFile(type: Zip) {
 
   def buildDirName = "build"
   def buildDir = new File ( buildDirName )
   buildDir.mkdirs()
 
+  from 'source/'
+  include '**'
+  archiveName "My Custom Pack-${version}.zip"
   destinationDir buildDir
-  archiveName "My Custom Pack.zip"
 
 }
 
