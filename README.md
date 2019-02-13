@@ -1,8 +1,8 @@
-# My First Modpack
+## Firmum Libra
 
 This is my first attempt at making a modpack. I'm using this project as a learning tool about how modpacks are created and structured.
 
-# Revision History
+### Revision History
 
 * 0.1.0 - John Moe - 6 Feb 2019
   * Initial commit
@@ -14,3 +14,5 @@ This is my first attempt at making a modpack. I'm using this project as a learni
   * Disabled OpenComputers' update check
   * Added Gradle build task
   * Added license
+* 0.1.2 - John Moe - 13 Feb 2019
+  * Changed name to "Firmum Libra"

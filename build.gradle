@@ -2,7 +2,7 @@ plugins {
   id 'base'
 }
 
-version = '0.1.1'
+version = '0.1.2'
 
 task createZipFile(type: Zip) {
 
@@ -12,7 +12,7 @@ task createZipFile(type: Zip) {
 
   from 'source/'
   include '**'
-  archiveName "My Custom Pack-${version}.zip"
+  archiveName "${project.name}-${version}.zip"
   destinationDir buildDir
 
 }
