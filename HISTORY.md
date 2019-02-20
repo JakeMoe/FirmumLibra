@@ -25,3 +25,9 @@
   * Added Iron Chests
   * Updated CraftTweaker script
   * Updated JER to fix dimension profile issue
+* 0.1.5 - John Moe - 20 Feb 2019
+  * Removed Chisel marble from worldgen
+  * Increased Astral Sorcery marble generation
+  * Removed BetterFPS update check
+  * Updated JER worldgen profile
+  * Disabled OpenBlocks grave
