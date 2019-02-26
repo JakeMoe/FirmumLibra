@@ -31,3 +31,8 @@
   * Removed BetterFPS update check
   * Updated JER worldgen profile
   * Disabled OpenBlocks grave
+* 0.1.6 - John Moe - 26 Feb 2019
+  * Added more recipe changes to CraftTweaker
+  * Updated Immersive Engineering to 0.12-89
+  * Updated Cyclic to 1.18.0
+  
