@@ -39,3 +39,5 @@
   * Added Decocraft 2
   * Added TOP Addons
   * More recipe cleanup
+* 0.1.8 - John Moe - 2 Mar 2019
+  * Added PTRLib as Decocraft dependency
