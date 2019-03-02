@@ -35,4 +35,7 @@
   * Added more recipe changes to CraftTweaker
   * Updated Immersive Engineering to 0.12-89
   * Updated Cyclic to 1.18.0
-  
+* 0.1.7 - John Moe - 2 Mar 2019
+  * Added Decocraft 2
+  * Added TOP Addons
+  * More recipe cleanup
