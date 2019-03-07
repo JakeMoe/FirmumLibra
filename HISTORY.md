@@ -41,3 +41,6 @@
   * More recipe cleanup
 * 0.1.8 - John Moe - 2 Mar 2019
   * Added PTRLib as Decocraft dependency
+* 0.1.9 - John Moe - 7 Mar 2019
+  * Fixed several typos in CraftTweaker script
+  * Added more recipe changes
