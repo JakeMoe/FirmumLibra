@@ -41,6 +41,52 @@
   * More recipe cleanup
 * 0.1.8 - John Moe - 2 Mar 2019
   * Added PTRLib as Decocraft dependency
-* 0.1.9 - John Moe - 7 Mar 2019
+* 0.2.0 - John Moe - 7 Mar 2019
   * Fixed several typos in CraftTweaker script
   * Added more recipe changes
+  * Updated mods:
+    * Actually Additions
+    * Aroma1997 Core
+    * Aroms1997 Mining Dimension
+    * Astral Sorcery
+    * Better Builder's Wands
+    * Biomes O' Plenty
+    * Blockcraftery
+    * Blood Magic
+    * Bookshelf
+    * Botania
+    * CoFH Core
+    * Common Capabilities
+    * CraftTweaker
+    * Cyclic
+    * Cyclops Core
+    * Dark Utilities
+    * Draconic Evolution
+    * Ender IO
+    * EnderCore
+    * Extra Utilities 2
+    * Extreme Reactors
+    * GraveStone Mod
+    * Industrial Foregoing
+    * Integrated Dynamics
+    * Integrated Tunnels
+    * Integration Foregoing
+    * Inventory Tweaks
+    * JourneyMap
+    * Just Enough Items
+    * Mantle
+    * Mouse Tweaks
+    * MTLib
+    * Mystical Agriculture
+    * MysticalLib
+    * OpenComputers
+    * PlusTiC
+    * PTRLib
+    * RFTools
+    * The One Probe
+    * Thermal Cultivation
+    * Thermal Dynamics
+    * Thermal Expansion
+    * Thermal Foundation
+    * Thermal Innovation
+    * ZeroCore

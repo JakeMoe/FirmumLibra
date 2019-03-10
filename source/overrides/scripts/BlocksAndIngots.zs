@@ -14,7 +14,7 @@ recipes.replaceAllOccurences(<mekanism:nugget:2>,                <thermalfoundat
 recipes.remove(<mekanism:nugget:2>);
 
 # Copper Block
-recipes.replaceAllOccurences(<ore:ingotCopper>,                  <thermalfoundation:storage:0>);
+recipes.replaceAllOccurences(<ore:blockCopper>,                  <thermalfoundation:storage:0>);
 recipes.replaceAllOccurences(<immersiveengineering:storage:0>,   <thermalfoundation:storage:0>);
 recipes.replaceAllOccurences(<mekanism:basicblock:12>,           <thermalfoundation:storage:0>);
 recipes.remove(<immersiveengineering:storage:0>);
