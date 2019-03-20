@@ -510,6 +510,11 @@
       "projectID": 291499,
       "fileID": 2685154,
       "required": true
+    },
+    {
+      "projectID": 256141,
+      "fileID": 2670073,
+      "required": true
     }
   ],
   "manifestType": "minecraftModpack",
@@ -517,7 +522,7 @@
   "minecraft": {
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2808",
+        "id": "forge-14.23.5.2814",
         "primary": true
       }
     ],
@@ -526,5 +531,5 @@
   "name": "Firmum Libra",
   "overrides": "overrides",
   "projectID": 313193,
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
