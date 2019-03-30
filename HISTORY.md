@@ -93,3 +93,27 @@
 * v0.2.1 - John Moe - 20 Mar 2019
   * Updated Forge to 14.23.5.2814
   * Added Rustic
+* v0.2.2 - John Moe - 30 Mar 2019
+  * Forge updated to 14.23.5.2824
+  * Mod Updates:
+    * Aroma1997Core-1.12.2-2.0.0.2.b165.jar
+    * astralsorcery-1.12.2-1.10.12.jar
+    * BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar
+    * chiselsandbits-14.31.jar
+    * CommonCapabilities-1.12.2-2.1.1.jar
+    * CraftTweaker2-1.12-4.1.16.jar
+    * Cyclic-1.12.2-1.18.5.jar
+    * CyclopsCore-1.12.2-1.1.1.jar
+    * DarkUtils-1.12.2-1.8.225.jar
+    * EnderCore-1.12.2-0.5.52.jar
+    * EnderIO-1.12.2-5.0.43.jar
+    * environmentaltech-1.12.2-2.0.20.1.jar
+    * industrialforegoing-1.12.2-1.12.10-234.jar
+    * IntegratedDynamics-1.12.2-1.0.10.jar
+    * IntegratedTunnels-1.12.2-1.6.8.jar
+    * jei_1.12.2-4.15.0.272.jar
+    * JustEnoughResources-1.12.2-0.9.0.52.jar
+    * Mekanism-1.12.2-9.6.7.360.jar
+    * RandomThings-MC1.12.2-4.2.7.jar
+    * SimplyJetpacks2-1.12.2-2.2.11.64.jar
+    * valkyrielib-1.12.2-2.0.20.1.jar
