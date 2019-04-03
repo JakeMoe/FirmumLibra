@@ -117,3 +117,9 @@
     * RandomThings-MC1.12.2-4.2.7.jar
     * SimplyJetpacks2-1.12.2-2.2.11.64.jar
     * valkyrielib-1.12.2-2.0.20.1.jar
+* v0.2.3 - John Moe - 3 Apr 2019
+  * Added:
+    * Mekanism Generators 9.6.7.360
+    * Mekanism Tools 9.6.7.360
+    * Simple Generators 2.0.20.2
+    
