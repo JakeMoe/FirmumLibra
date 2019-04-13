@@ -122,4 +122,15 @@
     * Mekanism Generators 9.6.7.360
     * Mekanism Tools 9.6.7.360
     * Simple Generators 2.0.20.2
-    
+* v0.3.0 - John Moe - 6 Apr 2019
+  * Added to CraftTweaker script:
+    * dusts/grits/powders
+  * Added:
+    * ArchitectureCraft
+    * AutoRegLib
+    * BiblioCraft
+    * CreativeCore
+    * LittleTiles
+    * Natura
+    * Psi
+    * ztones

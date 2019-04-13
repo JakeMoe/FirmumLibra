@@ -1,5 +1,5 @@
 # TODO List
 * Remove non-generated ores from Astral Sorcery's Treasure Shrine
-* Add Mekanism Generators
-* Add Mekanism Tools
-* Add Simple Generators
+* Add Quark?
+* Add plates to CraftTweaker script
+* Add gears to CraftTweaker script

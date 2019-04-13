@@ -530,6 +530,51 @@
       "projectID": 246010,
       "fileID": 2694397,
       "required": true
+    },
+    {
+      "projectID": 241665,
+      "fileID": 2698036,
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 2698372,
+      "required": true
+    },
+    {
+      "projectID": 257818,
+      "fileID": 2698376,
+      "required": true
+    },
+    {
+      "projectID": 228027,
+      "fileID": 2574880,
+      "required": true
+    },
+    {
+      "projectID": 74120,
+      "fileID": 2658980,
+      "required": true
+    },
+    {
+      "projectID": 277631,
+      "fileID": 2624386,
+      "required": true
+    },
+    {
+      "projectID": 224369,
+      "fileID": 2223720,
+      "required": true
+    },
+    {
+      "projectID": 250294,
+      "fileID": 2622900,
+      "required": true
+    },
+    {
+      "projectID": 250363,
+      "fileID": 2677092,
+      "required": true
     }
   ],
   "manifestType": "minecraftModpack",
@@ -546,5 +591,5 @@
   "name": "Firmum Libra",
   "overrides": "overrides",
   "projectID": 313193,
-  "version": "0.2.3"
+  "version": "0.3.0"
 }
