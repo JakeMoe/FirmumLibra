@@ -134,3 +134,16 @@
     * Natura
     * Psi
     * ztones
+* v0.3.1 - John Moe - 14 Apr 2019
+  * Added:
+    * Electroblob's Wizardry
+    * Just Enough HarvestCraft
+    * Keyboard Wizard
+    * Nature's Aura
+    * Patchouli
+    * Quark
+    * Waystones
+  * Removed marble from Quark worldgen (already generated in Thermal)
+  * Fixed server pack
+    * missing mods
+    * server startup script
