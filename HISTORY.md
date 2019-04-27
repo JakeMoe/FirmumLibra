@@ -147,3 +147,10 @@
   * Fixed server pack
     * missing mods
     * server startup script
+* v0.3.2 - John Moe - 20 April 2019
+  * Reverted Gravestone mod back to 1.12.2 version, as accidentally upgraded to 1.13.2 version
+  * Added KeyWizard config to remove button from controls GUI, as it was removing Controlling search interface
+  * Updated mods:
+    * AstralSorcery-1.12.2-1.10.17
+    * JustEnoughResources-1.12.2-0.9.0.53
+    
