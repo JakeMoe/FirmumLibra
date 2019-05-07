@@ -153,4 +153,6 @@
   * Updated mods:
     * AstralSorcery-1.12.2-1.10.17
     * JustEnoughResources-1.12.2-0.9.0.53
-    
+* v0.3.3 - John Moe - 8 May 2019
+  * Refactored CraftTweaker script to use variables
+  * Began adding Mekanism machine outputs to script
