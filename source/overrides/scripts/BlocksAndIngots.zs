@@ -1,15 +1,15 @@
 import crafttweaker.item.IItemStack;
 
-
-
-
 global aaGoldDust              as IItemStack = <actuallyadditions:item_dust:1>;
 global aaIronDust              as IItemStack = <actuallyadditions:item_dust:0>;
 global ae2GoldDust             as IItemStack = <appliedenergistics2:material:51>;
 global ae2IronDust             as IItemStack = <appliedenergistics2:material:49>;
+global bigreactorsSteelIngot   as IItemStack = <bigreactors:ingotsteel>;
 global enderioCopperDust       as IItemStack = <enderio:item_material:26>;
 global enderioGoldDust         as IItemStack = <enderio:item_material:25>;
+global enderioObsidianDust     as IItemStack = <enderio:item_material:29>;
 global enderioIronDust         as IItemStack = <enderio:item_material:24>;
+global enderioTinDust          as IItemStack = <enderio:item_material:27>;
 global immersiveAluminumBlock  as IItemStack = <immersiveengineering:storage:1>;
 global immersiveAluminumDust   as IItemStack = <immersiveengineering:metal:10>;
 global immersiveAluminumIngot  as IItemStack = <immersiveengineering:metal:1>;
@@ -28,6 +28,11 @@ global immersiveLeadBlock      as IItemStack = <immersiveengineering:storage:2>;
 global immersiveLeadDust       as IItemStack = <immersiveengineering:metal:11>;
 global immersiveLeadIngot      as IItemStack = <immersiveengineering:metal:2>;
 global immersiveLeadNugget     as IItemStack = <immersiveengineering:metal:22>;
+global immersiveSilverBlock    as IItemStack = <immersiveengineering:storage:3>;
+global immersiveSilverDust     as IItemStack = <immersiveengineering:metal:12>;
+global immersiveSilverIngot    as IItemStack = <immersiveengineering:metal:3>;
+global immersiveSilverNugget   as IItemStack = <immersiveengineering:metal:23>;
+global immersiveSteelIngot     as IItemStack = <immersiveengineering:metal:8>;
 global mekanismBronzeBlock     as IItemStack = <mekanism:basicblock:1>;
 global mekanismBronzeIngot     as IItemStack = <mekanism:ingot:2>;
 global mekanismBronzeNugget    as IItemStack = <mekanism:nugget:2>;
@@ -38,15 +43,25 @@ global mekanismCopperNugget    as IItemStack = <mekanism:nugget:5>;
 global mekanismGoldDust        as IItemStack = <mekanism:dust:1>;
 global mekanismIronDust        as IItemStack = <mekanism:dust:0>;
 global mekanismLeadDust        as IItemStack = <mekanism:dust:6>;
+global mekanismObsidianDust    as IItemStack = <mekanism:otherdust:6>;
+global mekanismRefinedObsidianDust as IItemStack = <mekanism:otherdust:5>;
+global mekanismSilverDust      as IItemStack = <mekanism:dust:5>;
+global mekanismSteelIngot      as IItemStack = <mekanism:ingot:4>;
+global mekanismTinBlock        as IItemStack = <mekanism:basicblock:13>;
+global mekanismTinDust         as IItemStack = <mekanism:dust:4>;
+global mekanismTinIngot        as IItemStack = <mekanism:ingot:6>;
+global mekanismTinNugget       as IItemStack = <mekanism:nugget:6>;
 global minecraftGoldOre        as IItemStack = <minecraft:gold_ore>;
-global minecraftGoldDust       as IItemStack = <minecraft:gold_ingot>;
-globla minecraftIronOre        as IItemStack = <minecraft:iron_ore>;
+global minecraftGoldIngot      as IItemStack = <minecraft:gold_ingot>;
+global minecraftIronOre        as IItemStack = <minecraft:iron_ore>;
 global minecraftIronIngot      as IItemStack = <minecraft:iron_ingot>;
 global plusticInvarBlock       as IItemStack = <plustic:invarblock>;
 global plusticInvarIngot       as IItemStack = <plustic:invaringot>;
 global plusticInvarNugget      as IItemStack = <plustic:invarnugget>;
 global thaumcraftCopperNugget  as IItemStack = <thaumcraft:nugget:1>;
 global thaumcraftLeadNugget    as IItemStack = <thaumcraft:nugget:4>;
+global thaumcraftSilverNugget  as IItemStack = <thaumcraft:nugget:3>;
+global thaumcraftTinNugget     as IItemStack = <thaumcraft:nugget:2>;
 global thermalAluminumBlock    as IItemStack = <thermalfoundation:storage:4>;
 global thermalAluminumDust     as IItemStack = <thermalfoundation:material:68>;
 global thermalAluminumIngot    as IItemStack = <thermalfoundation:material:132>;
@@ -69,9 +84,20 @@ global thermalInvarIngot       as IItemStack = <thermalfoundation:material:162>;
 global thermalInvarNugget      as IItemStack = <thermalfoundation:material:226>;
 global thermalIronDust         as IItemStack = <thermalfoundation:material:0>;
 global thermalLeadBlock        as IItemStack = <thermalfoundation:storage:3>;
-global thermalLeadDust         as IItemStack = <thermalfoundation:material:67>);
+global thermalLeadDust         as IItemStack = <thermalfoundation:material:67>;
 global thermalLeadIngot        as IItemStack = <thermalfoundation:material:131>;
-global thermalLeadNugget       as IItemStack = <thermalfoundation:material:195>);
+global thermalLeadNugget       as IItemStack = <thermalfoundation:material:195>;
+global thermalObsidianDust     as IItemStack = <thermalfoundation:material:770>;
+global thermalSilverBlock      as IItemStack = <thermalfoundation:storage:2>;
+global thermalSilverDust       as IItemStack = <thermalfoundation:material:66>;
+global thermalSilverIngot      as IItemStack = <thermalfoundation:material:130>;
+global thermalSilverNugget     as IItemStack = <thermalfoundation:material:194>;
+global thermalSteelIngot       as IItemStack = <thermalfoundation:material:160>;
+global thermalTinBlock         as IItemStack = <thermalfoundation:storage:1>;
+global thermalTinDust          as IItemStack = <thermalfoundation:material:65>;
+global thermalTinOre           as IItemStack = <thermalfoundation:ore:1>;
+global thermalTinIngot         as IItemStack = <thermalfoundation:material:129>;
+global thermalTinNugget        as IItemStack = <thermalfoundation:material:193>;
 
 # Aluminium Block
 recipes.replaceAllOccurences(<ore:blockAluminum>,                thermalAluminumBlock);
@@ -124,6 +150,8 @@ recipes.remove(enderioCopperDust);
 recipes.remove(immersiveCopperDust);
 recipes.remove(mekanismCopperDust);
 
+mods.mekanism.crusher.addRecipe(thermalCopperIngot,              thermalCopperDust);
+mods.mekanism.crusher.removeRecipe(mekanismCopperDust,           thermalCopperIngot);
 mods.mekanism.enrichment.addRecipe(thermalCopperOre,             thermalCopperDust);
 mods.mekanism.enrichment.removeRecipe(mekanismCopperDust,        thermalCopperOre);
 
@@ -182,7 +210,7 @@ mods.mekanism.crusher.removeRecipe(mekanismGoldDust,             minecraftGoldIn
 # Invar Block
 recipes.replaceAllOccurences(<ore:blockInvar>,                   thermalInvarBlock);
 recipes.replaceAllOccurences(plusticInvarBlock,                  thermalInvarBlock);
-recipes.remove(plusticInvarBock);
+recipes.remove(plusticInvarBlock);
 
 # Invar Ingot
 recipes.replaceAllOccurences(<ore:ingotInvar>,                   thermalInvarIngot);
@@ -207,7 +235,7 @@ recipes.remove(enderioIronDust);
 recipes.remove(immersiveIronDust);
 recipes.remove(mekanismIronDust);
 
-mods.mekanism.enrichment.addRecipe(minecraftIronOre,             thermalIrondust);
+mods.mekanism.enrichment.addRecipe(minecraftIronOre,             thermalIronDust);
 mods.mekanism.enrichment.removeRecipe(mekanismIronDust,          minecraftIronOre);
 
 # Lead Block
@@ -222,6 +250,9 @@ recipes.replaceAllOccurences(mekanismLeadDust,                   thermalLeadDust
 recipes.remove(immersiveLeadDust);
 recipes.remove(mekanismLeadDust);
 
+mods.mekanism.crusher.addRecipe(thermalLeadIngot,                thermalLeadDust);
+mods.mekanism.crusher.removeRecipe(mekanismLeadDust,             thermalLeadIngot);
+
 # Lead Ingot
 recipes.replaceAllOccurences(<ore:ingotLead>,                    thermalLeadIngot);
 recipes.replaceAllOccurences(immersiveLeadIngot,                 thermalLeadIngot);
@@ -234,64 +265,83 @@ recipes.replaceAllOccurences(thaumcraftLeadNugget,               thermalLeadNugg
 recipes.remove(immersiveLeadNugget);
 recipes.remove(thaumcraftLeadNugget);
 
+# Obsidian Dust
+recipes.replaceAllOccurences(<ore:dustObsidian>,                 thermalObsidianDust);
+recipes.replaceAllOccurences(enderioObsidianDust,                thermalObsidianDust);
+recipes.replaceAllOccurences(mekanismObsidianDust,               thermalObsidianDust);
+recipes.remove(enderioObsidianDust);
+recipes.remove(mekanismObsidianDust);
+
+mods.mekanism.crusher.addRecipe(mekanismRefinedObsidianDust,     thermalObsidianDust);
+mods.mekanism.crusher.removeRecipe(mekanismObsidianDust,         mekanismRefinedObsidianDust);
+
 # Silver Block
-recipes.replaceAllOccurences(<ore:blockSilver>,                  <thermalfoundation:storage:2>);
-recipes.replaceAllOccurences(<immersiveengineering:storage:3>,   <thermalfoundation:storage:2>);
-recipes.remove(<immersiveengineering:storage:3>);
+recipes.replaceAllOccurences(<ore:blockSilver>,                  thermalSilverBlock);
+recipes.replaceAllOccurences(immersiveSilverBlock,               thermalSilverBlock);
+recipes.remove(immersiveSilverBlock);
 
 # Silver Dust
-recipes.replaceAllOccurences(<ore:dustSilver>,                   <thermalfoundation:material:66>);
-recipes.replaceAllOccurences(<immersiveengineering:metal:12>,    <thermalfoundation:material:66>);
-recipes.replaceAllOccurences(<mekanism:dust:5>,                  <thermalfoundation:material:66>);
-recipes.remove(<immersiveengineering:metal:12>);
-recipes.remove(<mekanism:dust:5>);
+recipes.replaceAllOccurences(<ore:dustSilver>,                   thermalSilverDust);
+recipes.replaceAllOccurences(immersiveSilverDust,                thermalSilverDust);
+recipes.replaceAllOccurences(mekanismSilverDust,                 thermalSilverDust);
+recipes.remove(immersiveSilverDust);
+recipes.remove(mekanismSilverDust);
+
+mods.mekanism.crusher.addRecipe(thermalSilverIngot,              thermalSilverDust);
+mods.mekanism.crusher.removeRecipe(mekanismSilverDust,           thermalSilverIngot);
 
 # Silver Ingot
-recipes.replaceAllOccurences(<ore:ingotSilver>,                  <thermalfoundation:material:130>);
-recipes.replaceAllOccurences(<immersiveengineering:metal:3>,     <thermalfoundation:material:130>);
-recipes.remove(<immersiveengineering:metal:3>);
+recipes.replaceAllOccurences(<ore:ingotSilver>,                  thermalSilverIngot);
+recipes.replaceAllOccurences(immersiveSilverIngot,               thermalSilverIngot);
+recipes.remove(immersiveSilverIngot);
 
 # Silver Nugget
-recipes.replaceAllOccurences(<ore:nuggetSilver>,                 <thermalfoundation:material:194>);
-recipes.replaceAllOccurences(<immersiveengineering:metal:23>,    <thermalfoundation:material:194>);
-recipes.replaceAllOccurences(<thaumcraft:nugget:3>,              <thermalfoundation:material:194>);
-recipes.remove(<immersiveengineering:metal:23>);
-recipes.remove(<thaumcraft:nugget:3>);
+recipes.replaceAllOccurences(<ore:nuggetSilver>,                 thermalSilverNugget);
+recipes.replaceAllOccurences(immersiveSilverNugget,              thermalSilverNugget);
+recipes.replaceAllOccurences(thaumcraftSilverNugget,             thermalSilverNugget);
+recipes.remove(immersiveSilverNugget);
+recipes.remove(thaumcraftSilverNugget);
+
+# Steel Dust
+
+mods.mekanism.crusher.addRecipe(immersiveSteelIngot,             thermalSteel
 
 # Steel Ingot
-recipes.replaceAllOccurences(<ore:ingotSteel>,                   <thermalfoundation:material:160>);
-recipes.replaceAllOccurences(<bigreactors:ingotsteel>,           <thermalfoundation:material:160>);
-recipes.replaceAllOccurences(<immersiveengineering:metal:8>,     <thermalfoundation:material:160>);
-recipes.replaceAllOccurences(<mekanism:ingot:4>,                 <thermalfoundation:material:160>);
-recipes.remove(<bigreactors:ingotsteel>);
-recipes.remove(<immersiveengineering:metal:8>);
-recipes.remove(<mekanism:ingot:4>);
+recipes.replaceAllOccurences(<ore:ingotSteel>,                   thermalSteelIngot);
+recipes.replaceAllOccurences(bigreactorsSteelIngot,              thermalSteelIngot);
+recipes.replaceAllOccurences(immersiveSteelIngot,                thermalSteelIngot);
+recipes.replaceAllOccurences(mekanismSteelIngot,                 thermalSteelIngot);
+recipes.remove(bigreactorsSteelIngot);
+recipes.remove(immersiveSteelIngot);
+recipes.remove(mekanismSteelIngot);
 
 # Tin Block
-recipes.replaceAllOccurences(<ore:blockTin>,                     <thermalfoundation:storage:1>);
-recipes.replaceAllOccurences(<mekanism:basicblock:13>,           <thermalfoundation:storage:1>);
-recipes.remove(<mekanism:basicblock:13>);
+recipes.replaceAllOccurences(<ore:blockTin>,                     thermalTinBlock);
+recipes.replaceAllOccurences(mekanismTinBlock,                   thermalTinBlock);
+recipes.remove(mekanismTinBlock);
 
 # Tin Dust
-recipes.replaceAllOccurences(<ore:dustTin>,                      <thermalfoundation:material:65>);
-recipes.replaceAllOccurences(<enderio:item_material:27>,         <thermalfoundation:material:65>);
-recipes.replaceAllOccurences(<mekanism:dust:4>,                  <thermalfoundation:material:65>);
-recipes.remove(<enderio:item_material:27>);
-recipes.remove(<mekanism:dust:4>);
+recipes.replaceAllOccurences(<ore:dustTin>,                      thermalTinDust);
+recipes.replaceAllOccurences(enderioTinDust,                     thermalTinDust);
+recipes.replaceAllOccurences(mekanismTinDust,                    thermalTinDust);
+recipes.remove(enderioTinDust);
+recipes.remove(mekanismTinDust);
 
-mods.mekanism.enrichment.addRecipe(<thermalfoundation:ore:1>,    <thermalfoundation:material:65>);
-mods.mekanism.enrichment.removeRecipe(<mekanism:dust:4>,         <ore:oreTin>);
-mods.mekanism.enrichment.removeRecipe(<mekanism:dust:4>,         <mekanism:oreblock:2>);
-mods.mekanism.enrichment.removeRecipe(<mekanism:dust:4>,         <thermalfoundation:ore:1>);
+mods.mekanism.crusher.addRecipe(thermalTinIngot,                 thermalTinDust);
+mods.mekanism.crusher.removeRecipe(mekanismTinDust,              thermalTinIngot);
+mods.mekanism.enrichment.addRecipe(thermalTinOre,                thermalTinDust);
+mods.mekanism.enrichment.removeRecipe(mekanismTinDust,           <ore:oreTin>);
+mods.mekanism.enrichment.removeRecipe(mekanismTinDust,           <mekanism:oreblock:2>);
+mods.mekanism.enrichment.removeRecipe(mekanismTinDust,           thermalTinOre);
 
 # Tin Ingot
-recipes.replaceAllOccurences(<ore:ingotTin>,                     <thermalfoundation:material:129>);
-recipes.replaceAllOccurences(<mekanism:ingot:6>,                 <thermalfoundation:material:129>);
-recipes.remove(<mekanism:ingot:6>);
+recipes.replaceAllOccurences(<ore:ingotTin>,                     thermalTinIngot);
+recipes.replaceAllOccurences(mekanismTinIngot,                   thermalTinIngot);
+recipes.remove(mekanismTinIngot);
 
 # Tin Nugget
-recipes.replaceAllOccurences(<ore:nuggetTin>,                    <thermalfoundation:material:193>);
-recipes.replaceAllOccurences(<mekanism:nugget:6>,                <thermalfoundation:material:193>);
-recipes.replaceAllOccurences(<thaumcraft:nugget:2>,              <thermalfoundation:material:193>);
-recipes.remove(<mekanism:nugget:6>);
-recipes.remove(<thaumcraft:nugget:2>);
+recipes.replaceAllOccurences(<ore:nuggetTin>,                    thermalTinNugget);
+recipes.replaceAllOccurences(mekanismTinNugget,                  thermalTinNugget);
+recipes.replaceAllOccurences(thaumcraftTinNugget,                thermalTinNugget);
+recipes.remove(mekanismTinNugget);
+recipes.remove(thaumcraftTinNugget);

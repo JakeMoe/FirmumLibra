@@ -156,3 +156,5 @@
 * v0.3.3 - John Moe - 8 May 2019
   * Refactored CraftTweaker script to use variables
   * Began adding Mekanism machine outputs to script
+* v0.3.4 - John Moe - 9 May 2019
+  * A lot more CraftTweaker script changes and updates
