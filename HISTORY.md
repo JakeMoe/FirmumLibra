@@ -156,3 +156,67 @@
 * v0.3.3 - John Moe - 8 May 2019
   * Refactored CraftTweaker script to use variables
   * Began adding Mekanism machine outputs to script
+  * Updated Forge to forge-1.12.2-14.23.5.2838-universal.jar
+  * Updated mods:
+    * ActuallyAdditions-1.12.2-r148.jar
+    * Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b96.jar
+    * astralsorcery-1.12.2-1.10.19.jar
+    * AutoRegLib-1.3-30.jar
+    * BiomesOPlenty-1.13.2-8.0.0.162-universal.jar
+    * blockcraftery-1.12.2-1.3.1.jar
+    * BloodMagic-1.12.2-2.4.1-103.jar
+    * Bookshelf-1.14.2-4.0.2.jar
+    * Botania+r1.10-361.jar
+    * BrandonsCore-1.12.2-2.4.12.205-universal.jar
+    * chiselsandbits-14.33.jar
+    * CoFHWorld-1.12.2-1.3.1.7-universal.jar
+    * CommonCapabilities-1.12.2-2.4.1.jar
+    * CookingForBlockheads_1.12.2-6.4.70.jar
+    * CraftTweaker2-1.12-4.1.18.jar
+    * CreativeCore_v1.9.45_mc1.12.2.jar
+    * Cyclic-1.12.2-1.19.11.jar
+    * CyclopsCore-1.12.2-1.3.0.jar
+    * DarkUtils-1.12.2-1.8.226.jar
+    * Draconic-Evolution-1.12.2-2.3.22.343-universal.jar
+    * EnderCore-1.12.2-0.5.57.jar
+    * EnderIO-1.12.2-5.0.44.jar
+    * ExtremeReactors-1.12.2-0.4.5.67.jar
+    * industrialforegoing-1.12.2-1.12.12-236.jar
+    * IntegratedDynamics-1.12.2-1.0.14.jar
+    * IntegratedTunnels-1.12.2-1.6.9.jar
+    * ironchest-1.12.2-7.0.67.844.jar
+    * jei_1.12.2-4.15.0.280.jar
+    * journeymap-1.12.2-5.5.5b7.jar
+    * JustEnoughResources-1.12.2-0.9.1.56.jar
+    * keywizard-1.12.2-1.6.jar
+    * LittleTiles_v1.5.0-pre135_mc1.12.2.jar
+    * Mantle-1.12-1.3.3.55.jar
+    * mcjtylib-1.12-3.5.3.jar
+    * Mekanism-1.12.2-9.7.7.378.jar
+    * MekanismGenerators-1.12.2-9.7.7.378.jar
+    * MekanismTools-1.12.2-9.7.7.378.jar
+    * modtweaker-4.0.17.jar
+    * MysticalAgriculture-1.12.2-1.7.5.jar
+    * mysticallib-1.12.2-1.2.1.jar
+    * natura-1.12.2-4.3.2.69.jar
+    * NaturesAura-r17.jar
+    * OpenBlocks-1.12.2-1.8.1.jar
+    * OpenModsLib-1.12.2-0.12.2.jar
+    * Pam's+HarvestCraft+1.12.2zd+Surprise+for+Yogcast.jar
+    * Patchouli-1.0-19.jar
+    * plustic-7.0.7.0.jar
+    * Psi-r1.1-76.jar
+    * Quark-r1.5-158.jar
+    * RandomThings-MC1.12.2-4.2.7.1.jar
+    * rftools-1.12-7.71.jar
+    * rftoolsctrl-1.12-2.0.2.jar
+    * SimplyJetpacks2-1.12.2-2.2.12.65.jar
+    * TConstruct-1.12.2-2.12.0.135.jar
+    * ThermalCultivation-1.12.2-0.3.3.12-universal.jar
+    * ThermalDynamics-1.12.2-2.5.5.21-universal.jar
+    * ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+    * ThermalFoundation-1.12.2-2.6.3.27-universal.jar
+    * ThermalInnovation-1.12.2-0.3.3.12-universal.jar
+    * topaddons-1.12.2-1.11.0.jar
+    * twilightforest-1.12.2-3.8.689-universal.jar
+    * xnet-1.12-1.8.1.jar
