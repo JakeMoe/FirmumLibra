@@ -1,8 +1,8 @@
 ### Revision History
 
-* 0.1.0 - John Moe - 6 Feb 2019
+* 0.1.0 - Jake Moe - 6 Feb 2019
   * Initial commit
-* 0.1.1 - John Moe - 6 Feb 2019
+* 0.1.1 - Jake Moe - 6 Feb 2019
   * Removed UniDict
   * Added CraftTweaker script
     * Removed Mekanism Copper
@@ -10,13 +10,13 @@
   * Disabled OpenComputers' update check
   * Added Gradle build task
   * Added license
-* 0.1.2 - John Moe - 13 Feb 2019
+* 0.1.2 - Jake Moe - 13 Feb 2019
   * Changed name to "Firmum Libra"
-* 0.1.3 - John Moe - 15 Feb 2019
+* 0.1.3 - Jake Moe - 15 Feb 2019
   * Removed Actually Additions' update check
   * Configured IE to prefer TF ores
   * Added Random Things, FoamFix, BetterFPS
-* 0.1.4 - John Moe - 19 Feb 2019
+* 0.1.4 - Jake Moe - 19 Feb 2019
   * Removed Copper and Tin from Mekanism ore gen
   * Upped Thermal Foundation's Copper and Tin cluster count by 50%
   * Added Biomes O' Plenty
@@ -25,23 +25,23 @@
   * Added Iron Chests
   * Updated CraftTweaker script
   * Updated JER to fix dimension profile issue
-* 0.1.5 - John Moe - 20 Feb 2019
+* 0.1.5 - Jake Moe - 20 Feb 2019
   * Removed Chisel marble from worldgen
   * Increased Astral Sorcery marble generation
   * Removed BetterFPS update check
   * Updated JER worldgen profile
   * Disabled OpenBlocks grave
-* 0.1.6 - John Moe - 26 Feb 2019
+* 0.1.6 - Jake Moe - 26 Feb 2019
   * Added more recipe changes to CraftTweaker
   * Updated Immersive Engineering to 0.12-89
   * Updated Cyclic to 1.18.0
-* 0.1.7 - John Moe - 2 Mar 2019
+* 0.1.7 - Jake Moe - 2 Mar 2019
   * Added Decocraft 2
   * Added TOP Addons
   * More recipe cleanup
-* 0.1.8 - John Moe - 2 Mar 2019
+* 0.1.8 - Jake Moe - 2 Mar 2019
   * Added PTRLib as Decocraft dependency
-* 0.2.0 - John Moe - 7 Mar 2019
+* 0.2.0 - Jake Moe - 7 Mar 2019
   * Fixed several typos in CraftTweaker script
   * Added more recipe changes
   * Updated mods:
@@ -90,10 +90,10 @@
     * Thermal Foundation
     * Thermal Innovation
     * ZeroCore
-* v0.2.1 - John Moe - 20 Mar 2019
+* v0.2.1 - Jake Moe - 20 Mar 2019
   * Updated Forge to 14.23.5.2814
   * Added Rustic
-* v0.2.2 - John Moe - 30 Mar 2019
+* v0.2.2 - Jake Moe - 30 Mar 2019
   * Forge updated to 14.23.5.2824
   * Mod Updates:
     * Aroma1997Core-1.12.2-2.0.0.2.b165.jar
@@ -117,12 +117,12 @@
     * RandomThings-MC1.12.2-4.2.7.jar
     * SimplyJetpacks2-1.12.2-2.2.11.64.jar
     * valkyrielib-1.12.2-2.0.20.1.jar
-* v0.2.3 - John Moe - 3 Apr 2019
+* v0.2.3 - Jake Moe - 3 Apr 2019
   * Added:
     * Mekanism Generators 9.6.7.360
     * Mekanism Tools 9.6.7.360
     * Simple Generators 2.0.20.2
-* v0.3.0 - John Moe - 6 Apr 2019
+* v0.3.0 - Jake Moe - 6 Apr 2019
   * Added to CraftTweaker script:
     * dusts/grits/powders
   * Added:
@@ -134,7 +134,7 @@
     * Natura
     * Psi
     * ztones
-* v0.3.1 - John Moe - 14 Apr 2019
+* v0.3.1 - Jake Moe - 14 Apr 2019
   * Added:
     * Electroblob's Wizardry
     * Just Enough HarvestCraft
@@ -147,13 +147,13 @@
   * Fixed server pack
     * missing mods
     * server startup script
-* v0.3.2 - John Moe - 20 April 2019
+* v0.3.2 - Jake Moe - 20 April 2019
   * Reverted Gravestone mod back to 1.12.2 version, as accidentally upgraded to 1.13.2 version
   * Added KeyWizard config to remove button from controls GUI, as it was removing Controlling search interface
   * Updated mods:
     * AstralSorcery-1.12.2-1.10.17
     * JustEnoughResources-1.12.2-0.9.0.53
-* v0.3.3 - John Moe - 8 May 2019
+* v0.3.3 - Jake Moe - 8 May 2019
   * Refactored CraftTweaker script to use variables
   * Began adding Mekanism machine outputs to script
   * Updated Forge to forge-1.12.2-14.23.5.2838-universal.jar
@@ -220,3 +220,14 @@
     * topaddons-1.12.2-1.11.0.jar
     * twilightforest-1.12.2-3.8.689-universal.jar
     * xnet-1.12-1.8.1.jar
+* v1.0.0 - 21 Sept 2019 - Jake Moe
+  * Release time!
+  * Added Ender Storage
+  * Added Project Intelligence
+  * Added ThaumicJEI
+  * Added Thaumic Energistics
+  * Updated README URL
+  * Updated mods;
+    * Brandon's Core 2.4.17.208
+    * CodeChicken Lib 3.2.3.358
+    * Ender Storage 2.4.6.137

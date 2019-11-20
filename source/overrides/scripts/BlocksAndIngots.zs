@@ -43,6 +43,7 @@ global immersiveSilverDust          as IItemStack = <immersiveengineering:metal:
 global immersiveSilverIngot         as IItemStack = <immersiveengineering:metal:3>;
 global immersiveSilverNugget        as IItemStack = <immersiveengineering:metal:23>;
 global immersiveSilverOre           as IItemStack = <immersiveengineering:ore:3>;
+global immersiveSlag                as IItemStack = <immersiveengineering:material:7>;
 global immersiveSteelIngot          as IItemStack = <immersiveengineering:metal:8>;
 global mekanismBronzeBlock          as IItemStack = <mekanism:basicblock:1>;
 global mekanismBronzeIngot          as IItemStack = <mekanism:ingot:2>;
@@ -358,13 +359,13 @@ recipes.remove(enderioObsidianDust);
 recipes.remove(mekanismObsidianDust);
 
 mods.mekanism.crusher.addRecipe(mekanismRefinedObsidianDust,     thermalObsidianDust);
-#mods.mekanism.crusher.removeRecipe(mekanismObsidianDust,         mekanismRefinedObsidianDust);
+#mods.mekanism.crusher.removeRecipe(mekanismObsidianDust,        mekanismRefinedObsidianDust);
 mods.mekanism.enrichment.addRecipe(minecraftObsidian,            thermalObsidianDust * 2);
 mods.mekanism.enrichment.removeRecipe(minecraftObsidian,         mekanismObsidianDust * 2);
 
 # Refined Obsidian Dust
-mods.mekanism.infuser.removeRecipe(mekanismRefinedObsidianDust, enderioObsidianDust, "DIAMOND");
-mods.mekanism.infuser.removeRecipe(mekanismRefinedObsidianDust, mekanismObsidianDust, "DIAMOND");
+mods.mekanism.infuser.removeRecipe(mekanismRefinedObsidianDust,  enderioObsidianDust, "DIAMOND");
+mods.mekanism.infuser.removeRecipe(mekanismRefinedObsidianDust,  mekanismObsidianDust, "DIAMOND");
 
 # Silver Block
 recipes.replaceAllOccurences(<ore:blockSilver>,                  thermalSilverBlock);
@@ -421,6 +422,9 @@ recipes.replaceAllOccurences(mekanismSteelIngot,                 thermalSteelIng
 recipes.remove(bigreactorsSteelIngot);
 recipes.remove(immersiveSteelIngot);
 recipes.remove(mekanismSteelIngot);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(thermalSteelIngot, minecraftIronIngot, 3200, immersiveSlag);
+mods.immersiveengineering.BlastFurnace.removeRecipe(immersiveSteelIngot);
 
 # Tin Block
 recipes.replaceAllOccurences(<ore:blockTin>,                     thermalTinBlock);
