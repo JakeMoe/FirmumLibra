@@ -220,14 +220,13 @@
     * topaddons-1.12.2-1.11.0.jar
     * twilightforest-1.12.2-3.8.689-universal.jar
     * xnet-1.12-1.8.1.jar
-* v1.0.0 - 21 Sept 2019 - Jake Moe
-  * Release time!
+* v0.3.4RC - Jake Moe - 22 Nov 2019
+  * Release Candidate!
+  * Now with a custom main menu image!
   * Added Ender Storage
   * Added Project Intelligence
+  * Added Resource Loader
   * Added ThaumicJEI
   * Added Thaumic Energistics
   * Updated README URL
-  * Updated mods;
-    * Brandon's Core 2.4.17.208
-    * CodeChicken Lib 3.2.3.358
-    * Ender Storage 2.4.6.137
+  * Updated Forge and all mods to latest version

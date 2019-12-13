@@ -2,7 +2,7 @@ plugins {
   id 'base'
 }
 
-version = '0.3.4'
+version = '0.3.4RC'
 
 task createZipFile(type: Zip) {
 
